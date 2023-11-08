@@ -19,31 +19,63 @@
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
+          <li>The !DOCTYPE html element lets the computer know its going to be reading this as html </li>
+          <li>The title element is what appears on a tab in abrowser window</li>
           <li>The head element contains information about the webpage</li>
+          <li>The meta data is contained in the head element, typically not seen by users, and helps with search engine optimization(SEO)</li>
           <li>The body element represents the visibile content shown to the user</li>
+          <li>The script element embeds cliend side scripts such as Javascript</li>
+          <li>The style element defines the CSS styles associated with the site</li>
+          <li>The base element defines the url for a webpage, the link element connects an external source to the html document</li>
+          <li>Headings are designated h1 through h6, h1 being the biggest</li>
+          <li>The ul element us for unordered lists, as seen on this page, using the ol element would make this list numbered in order</li>
+          <li>The br element creates a break or line of empty space between two blocks of content</li>
+          <li>For hyper links, the a element creates the link, the href attribute points to the url</li>
         </ul>
       </section>
 
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
+          <li>A .css file needs to be created, in the command line interface (CLI) enter  touch style.css  </li>
+          <li>The touch command in the CLI followed by the document name and file type creates that file</li>
           <li>A margin indicates how much space we want around the outside of an element</li>
           <li>Padding indicates how much space we want around the content inside of an element</li>
+          <li>Using a commo after 2 selectors ex. header and footer - the following declarations in the {} will apply to both, preventing writing essentially duplicate code</li>
+          <li>DRY staynds for do no repeat yourself, the above note helps to avoid that</li>
+          <li>Putting a period before a word in the css doc designates it as a class selector. Ex. .card  any html element assigned to that class will gain the properties designated to that from the css file</li>
         </ul>
       </section>
    
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-          <li>git stauts: checks what branch we are currently on</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>git stauts  checks what branch we are currently on</li>
+          <li>git checkout main  switches to the main branch</li>
+          <li>git pull origin main  pulls the most current main branch to your local pc</li>
+          <li>git checkout -b branch-name  creates a new branch and switches to it</li>
+          <li>git add -A  starts the commit process by staging the changes</li>
+          <li>git commit -m "this text is for short but descriptive comment on the changes made in this branch"  is for the notes on branch changes</li>
+          <li>git push origin branch-name   pushes the changes to github to have a pull request created followed by review for a merge into the main branch</li>
         </ul>
       </section>
    
       <section class="card" id="javascript-section">
         <h2>Javascript</h2>
         <ul>
-          <li>A variable is a named container that allows us to store data in our code</li>
+          <li>In the CLI using touch you can create a script.js file</li>
+          <li>A variable is a named container that allows us to store data in our code ex. var shape = "Cirlce";</li>
+          <li>Adding the console.log method allows developers to test code and debug code. Here it could be implemented as console.log(shape); to display the word circle in the dev tools console</li>
+          <li>To open the dev tools, press ctrl+shift+i while in a web browser</li>
+          <li>Conditionals or boolean statements are true false checks</li>
+          <li>using if, else if, and else a program can determine whats true or not and output something based on which conditions are met or not</li>
+          <li>To check if a variable is equal to a condition that is written with === between them</li>
+          <li>To increase a variable by 1 you can either follow it with +1 or ++  ex. x++ to increase x by 1</li>
+          <li>An array is a single variable that can hold a group of data and are not limited to a single data type</li>
+          <li>Functions are created by typing function followed by the desired name of the function ex. function helloWorld() {code block}</li>
+          <li>The code block above is where the code for the functions usage and outcome are written</li>
+          <li>For loops declare a variable, check that variable against a boolean statement, if true it runs the code in the curly brackets, then makes a change to the variable</li>
+          <li>ex. for(var x = 0; x < 9; x++) {code block}</li>
           <li>Control flow is the order in which a computer executes code in a script</li>
         </ul>
       </section>
